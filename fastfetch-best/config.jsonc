@@ -24,47 +24,47 @@
     },
     {
       "type": "host",
-      "key": "   PC",
+      "key": "   PC•",
       "keyColor": "magenta"
     },
     {
       "type": "os",
-      "key": "   OS",
+      "key": "   OS•",
       "keyColor": "blue"
     },
     {
       "type": "kernel",
-      "key": "   Kernel",
+      "key": "   Kernel• ",
       "keyColor": "green"
     },
     {
       "type": "packages",
-      "key": "  󰏗 Packages",
+      "key": "  󰏗 Packs•",
       "keyColor": "34"
     },
     {
       "type": "display",
-      "key": "  󱍜 Display",
+      "key": "  󱍜 Display•",
       "keyColor": "38;5;208"
     },
     {
       "type": "wm",
-      "key": "   WM",
+      "key": "   WM•",
       "keyColor": "38;5;81"
     },
     {
       "type": "terminal",
-      "key": "   Terminal",
+      "key": "   type•",
       "keyColor": "38;5;81"
     },
     {
       "type": "media",
-      "key": "  󰝚  Music",
+      "key": "  󰝚  Music•",    
       "keyColor": "34"
     },
     {
       "type": "command",
-      "key": "  󱦟 OS Age ",
+      "key": "  󱦟 OS Age•",
       "keyColor": "31",
       "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
     },
@@ -75,12 +75,12 @@
     },
     {
       "type": "custom",
-      "format": "  󰊤  GitHub : natanbs-dev",
+      "format": "  󰊤 GitHub• natanbs-dev",
       "keyColor": "\u001b[38;5;75m"
     },
     {
       "type": "battery",
-      "key": "   Battery",
+      "key": "   Power•",
       "keyColor": "38;5;228" // Light Yellow
     },
     "break",
@@ -96,24 +96,24 @@
     {
       "type": "cpu",
       "format": "{1}",
-      "key": "   CPU",
+      "key": "   CPU•",
       "keyColor": "38;5;118" // Bright Green
     },
     {
       "type": "gpu",
       "format": "{2}",
-      "key": "   GPU",
+      "key": "   GPU•",
       "keyColor": "38;5;220" // Yellow
     },
     {
       "type": "gpu",
       "format": "{3}",
-      "key": "   GPU Driver",
+      "key": "   GPU Driver•",
       "keyColor": "38;5;27" // Cyan
     },
     {
       "type": "memory",
-      "key": "   Memory",
+      "key": "   Memory•",
       "keyColor": "38;5;99" // Pinkish Purple
     },
     {
