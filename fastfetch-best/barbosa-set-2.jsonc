@@ -4,7 +4,10 @@
     "logo": {
         "type": "builtin",
         "padding": {
-            "top": 1
+            "top": 1,
+            "right": 10,
+            "bottom": 20,
+            "left": 5
         }
     },
     "display": {
@@ -35,13 +38,21 @@
             "key": "• {#33}󰅐 uptime  {#keys}•",
             "type": "uptime"
         },
-        {
+     {
             "key": "• {#34}{icon} distro  {#keys}•",
             "type": "os"
         },
         {
+            "key": "• {#34}{icon} WM      {#keys}•",
+            "type": "wm"
+        },
+        {
+            "key": "• {#34}{icon} process {#keys}•",
+            "type": "processes"
+        },
+        {
             "type": "packages",
-            "key": "• 󰏗 Packs   {#keys}•",
+            "key": "• 󰏗 packs   {#keys}•",
             "keyColor": "34"
         },
         {
@@ -70,10 +81,7 @@
             "type": "cpu",
             "showPeCoreCount": true
         },
-        {
-            "key": "• {#37}󰍛 vulkan  {#keys}•",
-            "type": "vulkan"
-        },
+        
         {
             "key": "• {#34}󰉉 disk    {#keys}•",
             "type": "disk",
